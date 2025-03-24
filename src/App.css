@@ -1,0 +1,50 @@
+#quote-box {
+    width: 500px;
+    height: auto;
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px 40px;
+}
+
+#text {
+    font-size: 30px;
+    font-style: italic;
+    color: #e1886a;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    height: 40px;
+}
+
+#author {
+    display: flex;
+    justify-self: right;
+    color: #e1886a;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#tweet-quote svg{
+    height: 40px;
+}
+
+#tweet-quote svg path{
+    fill: #e1886a;
+}
+
+#new-quote{
+    background: #e1886a;
+    color: white;
+    border-color: white;
+    border-radius: 12px;
+    height: 100%;
+    width: 120px;
+    font-style: italic;
+    font-size: 16px;
+    border-style: hidden;
+    cursor: pointer;
+}
